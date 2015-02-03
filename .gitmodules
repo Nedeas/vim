@@ -1,0 +1,27 @@
+[submodule "bundle/minibufexpl.vim"]
+	path = bundle/minibufexpl.vim
+	url = https://github.com/fholgado/minibufexpl.vim.git
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/phpcomplete-extended"]
+	path = bundle/phpcomplete-extended
+	url = https://github.com/m2mdas/phpcomplete-extended.git
+[submodule "bundle/phpcomplete-extended-symfony"]
+	path = bundle/phpcomplete-extended-symfony
+	url = https://github.com/m2mdas/phpcomplete-extended-symfony.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "bundle/unite.vim"]
+	path = bundle/unite.vim
+	url = https://github.com/Shougo/unite.vim.git
+[submodule "bundle/vim-twig"]
+	path = bundle/vim-twig
+	url = https://github.com/evidens/vim-twig.git
+[submodule "bundle/vimproc.vim"]
+	path = bundle/vimproc.vim
+	url = https://github.com/Shougo/vimproc.vim.git
