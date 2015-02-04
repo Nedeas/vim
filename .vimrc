@@ -17,30 +17,36 @@ set softtabstop=4   " Sets the number of columns for a TAB
 
 set expandtab       " Expand TABs to spaces
 
-" Ouverture de NERDS Tree s'il n'y a pas de fichier en entrée
+" Open file expoler (nerdtree) if no file in arguments of vim command
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
-" commande d'ouverture de NERD Tree
+" shortcut for toggle file explorer (nerdtree)
 map <C-e> :NERDTreeTabsToggle<CR>
 
-" onglet
+" tabs file navigation
+" close tab
 map <leader><leader>c :MBEbd!<CR>
-map <C-h> : MBEbp<CR> 
+" go to left file beside current file
+map <C-h> : MBEbp<CR>
+" go to right file beside current file
 map <C-l> : MBEbn<CR> 
 
+" command for call composer
+" Default are : let g:phpcomplete_index_composer_command="php composer.phar"
 let g:phpcomplete_index_composer_command="composer"
 
 filetype plugin on
-" autocmd FileType ruby,eruby setl ofu=rubycomplete#CompleteRuby
+autocmd FileType ruby,eruby setl ofu=rubycomplete#CompleteRuby
 autocmd FileType html,xhtml setl ofu=htmlcomplete#CompleteTags
 autocmd FileType c setl ofu=ccomplete#CompleteCpp
 autocmd FileType css setl ofu=csscomplete#CompleteCSS
 autocmd FileType php setlocal omnifunc=phpcomplete_extended#CompletePHP
 
+" toggle tag bar (list of function and attribute in file)
 nmap <F8> :TagbarToggle<CR>
 
-" -- Copier / coller globalement
+" copy/paste in system clipboard
 map <leader>y "*y<CR>
 map <leader>p "*p
 
