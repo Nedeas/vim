@@ -7,6 +7,8 @@
 2. cd ~/.vim/ && git submodule update --init --recursive
 3. cd ~/.vim/bundle/YouCompleteMe && ./install.sh --clang-completer
 4. cd ~/.vim/bundle/vimproc.vim && make
+5. ln -s ~/.vim/.vimrc ~/.vimrc 
+
 ### Reference ###
 
 * [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) : auto-complete
@@ -14,6 +16,7 @@
 * [pathogen](https://github.com/tpope/vim-pathogen) : Manage your 'runtimepath' (load bundle, ...)
 * [minibufExplorer](https://github.com/fholgado/minibufexpl.vim) : Tag for file
 * [NerdTree](https://github.com/scrooloose/nerdtree) : File explorer
+* [vim-nerdtree-tabs](https://github.com/jistr/vim-nerdtree-tabs) : File explorer tabs
 * [phpcomplete-extended](https://github.com/m2mdas/phpcomplete-extended) : Reference auto-complete for PHP
 * [phpcomplete-extended-symfony](https://github.com/m2mdas/phpcomplete-extended) : Reference auto-complete for Symfony2
 * [tagBar](https://github.com/majutsushi/tagbar) : Reference functions and attributs of current file
