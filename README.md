@@ -22,5 +22,5 @@
 * [tagBar](https://github.com/majutsushi/tagbar) : Reference functions and attributs of current file
 * [Unite](https://github.com/Shougo/unite.vim) : support of phpcomplete-extended
 * [vimproc](https://github.com/Shougo/vimproc.vim) : support of another bundle
-
+* [vim-sensible](https://github.com/tpope/vim-sensible) : Add support for standard key (backspace, ...)
 
