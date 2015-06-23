@@ -47,8 +47,8 @@ autocmd FileType php setlocal omnifunc=phpcomplete_extended#CompletePHP
 nmap <F8> :TagbarToggle<CR>
 
 " copy/paste in system clipboard
-map <leader>y "*y<CR>
-map <leader>p "*p
+map <leader>y "ay<CR>
+map <leader>p "ap
 
 set tags+=.ctags
 
