@@ -50,4 +50,5 @@ nmap <F8> :TagbarToggle<CR>
 map <leader>y "*y<CR>
 map <leader>p "*p
 
+set tags+=.ctags
 
