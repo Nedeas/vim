@@ -2,6 +2,10 @@
 execute pathogen#infect('bundle/{}', '~/src/vim/bundle/{}')
 syntax on
 filetype plugin indent on
+set background=dark
+colorscheme solarized
+
+call togglebg#map("<F5>")
 
 let mapleader = ","
 
